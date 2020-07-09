@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragmentOther"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_search"
+        android:title="Search Recipes"
+        />
+    <item
+        android:id="@+id/blankFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_add"
+        android:title="Add Recipe" />
+    <item
+        android:id="@+id/otherFragment2"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_list"
+        android:title="My Recipes"
+        />
+</menu>
